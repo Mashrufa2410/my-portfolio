@@ -1,0 +1,91 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Licorice&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* common-styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.btn-primary{
+    color: white;
+    background-color: #DFAAFF;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.section-title{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+/* header */
+
+header{
+    background-image: linear-gradient(#6f6cff34, #ae00ff3b);
+}
+
+/* Nav */
+
+nav{
+    padding: 30px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 30px;
+    color: white;
+}
+
+/* Banner */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.banner-img{
+    width: 450px;
+    height: 450px;
+}
+
+.banner-title{
+    font-family: "Licorice", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+}
+
+/* About me */
+
+.about{
+ padding: 50px 250px;
+}
+
+.about-container{
+    background-image: linear-gradient(#f5b7ffa1, #9686ff8a);
+    text-align: center;
+    padding: 100px;
+}
+
+.about-Main-context{
+    text-align: center;
+}
+.about-info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
